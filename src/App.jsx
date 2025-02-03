@@ -15,9 +15,12 @@ export const App = () => {
 			<div className={styles.container}>
 				<Routes>
 					<Route path="/React-TodoList-App/" element={<TodoListJsonServer />} />
-					<Route path="/task/:id" element={<SinglePage />} />
-					<Route path="/404" element={<NotFound404 />} />
-					<Route path="*" element={<Navigate to="/404" replace />} />
+					<Route path="/React-TodoList-App/task/:id" element={<SinglePage />} />
+					<Route path="/React-TodoList-App/404" element={<NotFound404 />} />
+					<Route
+						path="/*"
+						element={<Navigate to="/React-TodoList-App/404" replace />}
+					/>
 				</Routes>
 			</div>
 		</div>
