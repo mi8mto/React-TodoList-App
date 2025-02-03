@@ -18,7 +18,7 @@ export const App = () => {
 					<Route path="/React-TodoList-App/task/:id" element={<SinglePage />} />
 					<Route path="/React-TodoList-App/404" element={<NotFound404 />} />
 					<Route
-						path="/*"
+						path="*"
 						element={<Navigate to="/React-TodoList-App/404" replace />}
 					/>
 				</Routes>
