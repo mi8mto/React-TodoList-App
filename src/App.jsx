@@ -14,7 +14,7 @@ export const App = () => {
 			{<Header />}
 			<div className={styles.container}>
 				<Routes>
-					<Route path="/" element={<TodoListJsonServer />} />
+					<Route path="/React-TodoList-App/" element={<TodoListJsonServer />} />
 					<Route path="/task/:id" element={<SinglePage />} />
 					<Route path="/404" element={<NotFound404 />} />
 					<Route path="*" element={<Navigate to="/404" replace />} />
