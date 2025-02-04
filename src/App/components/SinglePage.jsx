@@ -115,3 +115,6 @@ export const SinglePage = () => {
 		</div>
 	);
 };
+
+
+

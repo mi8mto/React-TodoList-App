@@ -13,3 +13,5 @@ export const NotFound404 = () => {
 		</div>
 	);
 };
+
+
