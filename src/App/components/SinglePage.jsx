@@ -70,10 +70,6 @@ export const SinglePage = () => {
 
 	return (
 		<div>
-			{/* <p>
-				<Link to="/">dthyenmcz</Link>
-			</p> */}
-
 			{/* Кнопка "Назад" */}
 			<button onClick={goBack} className={styles.backButton}>
 				← Назад
