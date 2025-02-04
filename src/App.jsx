@@ -3,7 +3,6 @@ import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-d
 import { Header } from './App/components/Header/Header';
 import { NotFound404 } from './App/components/NotFound404';
 import { SinglePage } from './App/components/SinglePage';
-
 import { TodoListJsonServer } from './App/components/TodoListJSONServer';
 
 import styles from './App.module.css';
